@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Opportunity OS",
+    "slug": "opportunity-os",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "opportunityos",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.opportunityos.app"
+    },
+    "android": {
+      "package": "com.opportunityos.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#050816"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "93b0268b-7b93-4e4a-b1dc-a48ec2915864"
+      }
+    }
+  }
+}
