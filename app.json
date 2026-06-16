@@ -8,7 +8,7 @@
     "scheme": "opportunityos",
     "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/icon.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#020617"
     },
@@ -18,17 +18,14 @@
     "android": {
       "package": "com.opportunityos.app",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#020617"
       }
     },
     "web": {
-      "favicon": "./assets/icon.png"
+      "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-splash-screen",
-      "expo-font"
-    ],
+    "plugins": ["expo-splash-screen", "expo-font"],
     "extra": {
       "eas": {
         "projectId": "93b0268b-7b93-4e4a-b1dc-a48ec2915864"
